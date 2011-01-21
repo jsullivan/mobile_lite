@@ -37,9 +37,7 @@ a {
  color: #1786D8; 
 	font-weight: bold;
 }
-a:visited {
- color: #4F565B; 
-}
+
 
 
 /*	Default 8-column layout
@@ -52,7 +50,6 @@ a:visited {
 body {
 	margin: 0 auto;
 	width: 768px;
-	-webkit-tap-highlight-color: #333;
 	-webkit-font-smoothing:antialiased; }
 }
 
@@ -115,6 +112,11 @@ section.container {
 	    rgb(240,237,240) 84%
 	);
 }
+nav a {
+	text-decoration: none;
+	display: block;
+	color: #1786D8;
+}
 nav li, .summary {
 	background: #fff;
 	margin: 0 auto;
@@ -132,6 +134,13 @@ nav li, .summary {
 	-moz-box-shadow: 0px 1px 3px #626262;
 	box-shadow: 0px 1px 3px #626262;
 }
+.arrow {
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #1786D8;
+	display: inline;
+	margin-right: 5pxs;}
+
 section.summary h1{
 	font-size: 20px;
 }
