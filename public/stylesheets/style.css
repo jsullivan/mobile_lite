@@ -36,10 +36,21 @@ body {
 a {
  color: #1786D8; 
 	font-weight: bold;
-	text-decoration: none;
 }
 a:visited {
  color: #4F565B; 
+}
+section.phone {
+	font-size: 40px;
+	color: #1786D8;
+	font-weight: bold;
+	text-align: center;
+}
+phone a {
+	color: #1786D8;
+	text-decoration: underline;
+	
+	
 }
 
 /*	Default 8-column layout
@@ -67,7 +78,6 @@ header {
 	padding: 10px 5px;
 	height: 25px;
 	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #fff;
 	text-align: center;
 	background: #ffffff; /* old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* firefox */
