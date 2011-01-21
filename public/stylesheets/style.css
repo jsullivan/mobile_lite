@@ -116,6 +116,8 @@ nav a {
 	text-decoration: none;
 	display: block;
 	color: #1786D8;
+	background: url('/images/arrow.png') no-repeat 0 0;
+	background-position: right;
 }
 nav li, .summary {
 	background: #fff;
@@ -124,7 +126,7 @@ nav li, .summary {
 	width: 85%;
 	padding: 5%;
 	text-decoration: none;
-	display: block;
+	list-style: none;
 	font-weight: bold;
 	background: #ffffff;
 	-webkit-border-radius: 5px;
@@ -133,6 +135,11 @@ nav li, .summary {
 	-webkit-box-shadow: 0px 1px 3px #626262;
 	-moz-box-shadow: 0px 1px 3px #626262;
 	box-shadow: 0px 1px 3px #626262;
+}
+nav img {
+	display: inline;
+	margin-right: 3px;
+	
 }
 .arrow {
 	font-family: Helvetica;
