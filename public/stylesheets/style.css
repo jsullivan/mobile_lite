@@ -66,7 +66,7 @@ header {
 	position: relative;
 	padding: 10px 5px;
 	height: 25px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #A1A1A1;
 	text-align: center;
 	background: #1E5799; /* old browsers */
 	background: -moz-linear-gradient(top, #1E5799 0%, #2989D8 50%, #207cca 51%, #7db9e8 100%); /* firefox */
@@ -81,8 +81,8 @@ header h1 {
  	font-weight:bold;
  	text-shadow:rgba(0, 0, 0, 0.5) 0px 1px 0px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
 }
-/* CONTENT */
 
+/* CONTENT */
 section.phone {
 	background: #fff;
 	font-size: 35px;
@@ -99,7 +99,8 @@ section.container {
 	width: 100%;
 	min-height: 300px;
 	float: left;
-	background-image: -webkit-gradient(
+	
+	background-image: url('/images/specks.png'), -webkit-gradient(
 	    linear,
 	    left bottom,
 	    left top,
@@ -107,12 +108,13 @@ section.container {
 	    color-stop(0.55, rgb(209,205,209)),
 	    color-stop(0.84, rgb(240,237,240))
 	);
-	background-image: -moz-linear-gradient(
+	background-image: url('/images/specks.png'), -moz-linear-gradient(
 	    center bottom,
 	    rgb(163,157,163) 18%,
 	    rgb(209,205,209) 55%,
 	    rgb(240,237,240) 84%
-	);}
+	);
+}
 nav li, .summary {
 	background: #fff;
 	margin: 0 auto;
@@ -192,13 +194,7 @@ footer li:last-of-type {border-right:none;}
 			/* Prevents Mobile Safari from bumping up font sizes in landscape */
 			-webkit-text-size-adjust: 100%; 
 		}
-
-		/* middle */
-
-
-
 	}
-
 
 /*	3-column layout
 	60 px columns, 24 px gutters, 46 px margins, 320 px total
@@ -214,32 +210,6 @@ footer li:last-of-type {border-right:none;}
 			-webkit-text-size-adjust: 100%;
 		}
 
-		/* middle */
-		#banner img {display:none;}
-
-
-
-		/* ctas */
-		.ctas li {
-			float:left;
-			width:50%;height:28px;
-			line-height:28px;
-			list-style:none;
-			color:#fff;
-			background:#535353;
-			border-bottom:1px solid #333;
-		}
-		.ctas {display:block;}
-
-		button, .slick-black {
-			display: none;
-		}
-
 		/* forms */
 		textarea {width:200px;}
-
-		/* footer */
-
-
-
 	}
