@@ -97,18 +97,12 @@ section.container {
 	min-height: 300px;
 	float: left;
 	padding: 5%;
-	background-image: -webkit-gradient(
-		linear,
-	  left bottom,
-	  left top,
-	  color-stop(0.35, rgb(247,244,247)),
-	  color-stop(0.78, rgb(255,255,255))
-	);
-	background-image: -moz-linear-gradient(
-		center bottom,
-	  rgb(247,244,247) 35%,
-	  rgb(255,255,255) 78%
-	);
+	background: #eeeeee; /* old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* firefox */
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* webkit */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* ie */
 }
 nav li {
 	color: #1786D8;
