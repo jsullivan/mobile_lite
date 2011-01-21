@@ -94,9 +94,23 @@ section.content li {
 	margin-bottom: 3px;
 	margin-left: 18px;
 }
-#main {
-	width: 440px;
+.container {
+	width: 90%;
+	min-height: 300px;
 	float: left;
+	padding: 5%;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.35, rgb(247,244,247)),
+	    color-stop(0.78, rgb(255,255,255))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(247,244,247) 35%,
+	    rgb(255,255,255) 78%
+	);
 }
 #sidebar {
 	width: 248px;
@@ -188,8 +202,6 @@ img::-moz-selection {background: transparent;}
 		}
 
 		/* middle */
-		#main {width:auto;}
-		.content {padding:10px;}
 
 
 		/* footer */
@@ -215,8 +227,7 @@ img::-moz-selection {background: transparent;}
 		/* middle */
 		#banner img {display:none;}
 
-		#main {width:auto;}
-		.content {padding:10px 5px;}
+
 
 		/* ctas */
 		.ctas li {
