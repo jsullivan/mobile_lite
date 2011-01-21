@@ -163,7 +163,10 @@ section.summary hr {
 	margin: 20px 0;
 }
 figure {
-	margin: 0 0 10px 0;
+	width: 95%;
+	margin: 10px auto;
+
+	
 }
 /* FOOTER */
 
