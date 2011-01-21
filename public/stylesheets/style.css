@@ -40,18 +40,7 @@ a {
 a:visited {
  color: #4F565B; 
 }
-section.phone {
-	font-size: 40px;
-	color: #1786D8;
-	font-weight: bold;
-	text-align: center;
-}
-phone a {
-	color: #1786D8;
-	text-decoration: underline;
-	
-	
-}
+
 
 /*	Default 8-column layout
 	60 px columns, 24 px gutters, 60 px margins, 768 px total
@@ -93,12 +82,15 @@ header h1 {
 }
 /* CONTENT */
 
-h2, p, .content ul {
-	margin-bottom: 10px;
+section.phone {
+	font-size: 40px;
+	color: #1786D8;
+	font-weight: bold;
+	text-align: center;
 }
-section.content li {
-	margin-bottom: 3px;
-	margin-left: 18px;
+phone a {
+	color: #1786D8;
+	text-decoration: underline;
 }
 section.container {
 	width: 90%;
@@ -118,12 +110,23 @@ section.container {
 	  rgb(255,255,255) 78%
 	);
 }
-#sidebar {
-	width: 248px;
-	float: right;
-	padding: 10px 20px;
+nav li {
+	color: #1786D8;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5%;
+	text-decoration: none;
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+	border: 2px solid #e6e5e5;
+	background: #ffffff;
+	-webkit-box-shadow: 0px 0px 2px #343434;
+	-moz-box-shadow: 0px 0px 2px #343434;
+	box-shadow: 0px 0px 2px #343434;
 }
-
 /* FOOTER */
 footer {
 	padding: 5%;
@@ -225,9 +228,6 @@ footer li:last-of-type {border-right:none;}
 
 		/* footer */
 
-		footer li {
-			display:block;
-			border-right:0;
-		}
+
 
 	}
