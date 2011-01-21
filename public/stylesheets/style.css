@@ -99,8 +99,20 @@ section.container {
 	width: 100%;
 	min-height: 300px;
 	float: left;
-	background: #ddd;
-}
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.18, rgb(163,157,163)),
+	    color-stop(0.55, rgb(209,205,209)),
+	    color-stop(0.84, rgb(240,237,240))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(163,157,163) 18%,
+	    rgb(209,205,209) 55%,
+	    rgb(240,237,240) 84%
+	);}
 nav li {
 	background: #fff;
 	margin: 0 auto;
@@ -143,7 +155,8 @@ footer a {
 footer li {
 	padding:0 8px 0 5px;
 	font-size:12px;
-	display:inline;border-right:1px solid #ccc;	
+	display:inline;
+	border-right:1px solid #ccc;	
 }
 
 footer li:last-of-type {border-right:none;}
