@@ -151,6 +151,9 @@ nav img {
 section.summary h1{
 	font-size: 20px;
 }
+section.summary {
+	margin-bottom: 10px;
+}
 section p {
 	font-weight: normal;
 	font-family: Georgia, serif;
@@ -163,6 +166,7 @@ figure {
 	margin: 0 0 10px 0;
 }
 /* FOOTER */
+
 footer {
 	padding: 5%;
 	clear: both;
