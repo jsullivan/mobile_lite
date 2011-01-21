@@ -83,8 +83,10 @@ header h1 {
 /* CONTENT */
 
 section.phone {
+	background: #fff;
 	font-size: 35px;
 	color: #1786D8;
+	padding: 5%;
 	font-weight: bold;
 	text-align: center;
 }
@@ -93,34 +95,24 @@ phone a {
 	text-decoration: underline;
 }
 section.container {
-	width: 90%;
+	width: 100%;
 	min-height: 300px;
 	float: left;
-	padding: 5%;
-	background: #eeeeee; /* old browsers */
-	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* firefox */
-
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* webkit */
-
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* ie */
+	background: #eee 17%;
 }
 nav li {
 	color: #1786D8;
 	background: #fff;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 	padding: 5%;
 	text-decoration: none;
 	display: block;
-	margin-top: 20px;
+	margin-top: -1px;
 	font-weight: bold;
 	font-size: 20px;
-	border: 2px solid #e6e5e5;
+	border-width: 1px 0px 1px 0px;
+	border-color: #ccc;
+	border-style: solid;
 	background: #ffffff;
-	-webkit-box-shadow: 0px 0px 2px #343434;
-	-moz-box-shadow: 0px 0px 2px #343434;
-	box-shadow: 0px 0px 2px #343434;
 }
 /* FOOTER */
 footer {
