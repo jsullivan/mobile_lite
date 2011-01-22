@@ -121,6 +121,13 @@ nav li, .summary {
   -moz-box-shadow: 0px 1px 3px #626262;
   box-shadow: 0px 1px 3px #626262;
 }
+.sexy_line {
+    margin: 25px 0;
+    height: 1px;
+    border: 0;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
 nav img {
   display: inline;
   margin-right: 3px;
