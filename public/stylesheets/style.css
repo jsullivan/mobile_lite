@@ -68,6 +68,7 @@ header {
   border-bottom: 1px solid #3E84D6;
 }
 header a {
+    font-size: 12px;
     position: absolute;
     top: 7px;
     left: 8px;
@@ -77,7 +78,7 @@ header a {
     color: white;
     text-shadow:rgba(0, 0, 0, 0.5) 0px 1px 0px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
     line-height: 28px;
-    padding: 0 8px;
+    padding: 0 10px;
     text-decoration: none;
     background-image: -webkit-gradient(
         linear,
@@ -137,14 +138,29 @@ section.container {
   );
 }
 nav.header {
-  background: #75d944;
+  background: url('/images/green_ribbon.png') no-repeat 0 0, -webkit-gradient(
+    linear,
+     left bottom,
+     left top,
+     color-stop(0, rgb(108,201,58)),
+     color-stop(0.5, rgb(112,204,66)),
+     color-stop(0.77, rgb(118,217,68))
+  );
+  background-position: right;
+  background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(108,201,58) 0%,
+      rgb(112,204,66) 50%,
+      rgb(118,217,68) 77%
+  );
   margin-top: 8px;
-  margin-right: 24px;
+  margin-right: 38px;
   padding: 2px 0px 2px 16px;
   color: #fff;
   font-weight: bold;
   font-size: 12px;
-  border-top: 1px solid #fff;
+  border-bottom: 1px solid #53AF00;
+  border-top: 1px solid #53AF00;
 }
 nav a {
   text-decoration: none;
