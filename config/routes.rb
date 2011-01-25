@@ -9,7 +9,11 @@ MobileLite::Application.routes.draw do
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
-  match '/locations' => 'welcome#locations', :as => :locations
+    match '/facility' => 'welcome#facility', :as => :facility
+    match '/states' => 'welcome#states', :as => :states
+    match '/cities' => 'welcome#cities', :as => :cities
+    match '/stores' => 'welcome#stores', :as => :stores
+
 
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
