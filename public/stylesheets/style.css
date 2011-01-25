@@ -162,6 +162,30 @@ nav.header {
   border-bottom: 1px solid #53AF00;
   border-top: 1px solid #53AF00;
 }
+
+nav.header_full {
+  background: -webkit-gradient(
+    linear,
+     left bottom,
+     left top,
+     color-stop(0, rgb(108,201,58)),
+     color-stop(0.5, rgb(112,204,66)),
+     color-stop(0.77, rgb(118,217,68))
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(108,201,58) 0%,
+      rgb(112,204,66) 50%,
+      rgb(118,217,68) 77%
+  );
+  margin-top: 8px;
+  padding: 2px 0px 2px 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 1px solid #53AF00;
+  border-top: 1px solid #53AF00;
+}
 nav a {
   text-decoration: none;
   display: block;
