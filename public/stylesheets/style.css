@@ -120,7 +120,7 @@ section.phone {
 }
 section.container {
   width: 100%;
-  min-height: 300px;
+  min-height: 340px;
   float: left;
   background-image: url('/images/specks.png'), -webkit-gradient(
     linear,
@@ -139,52 +139,52 @@ section.container {
 }
 nav.header {
   background: url('/images/green_ribbon.png') no-repeat 0 0, -webkit-gradient(
-    linear,
-     left bottom,
-     left top,
-     color-stop(0, rgb(108,201,58)),
-     color-stop(0.5, rgb(112,204,66)),
-     color-stop(0.77, rgb(118,217,68))
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.38, rgb(232,93,0)),
+      color-stop(0.69, rgb(235,94,0)),
+      color-stop(0.85, rgb(237,95,0))
   );
-  background-position: right;
   background-image: -moz-linear-gradient(
       center bottom,
-      rgb(108,201,58) 0%,
-      rgb(112,204,66) 50%,
-      rgb(118,217,68) 77%
+      rgb(232,93,0) 38%,
+      rgb(235,94,0) 69%,
+      rgb(237,95,0) 85%
   );
+  background-position: right;
   margin-top: 8px;
   margin-right: 38px;
   padding: 2px 0px 2px 16px;
   color: #fff;
   font-weight: bold;
   font-size: 12px;
-  border-bottom: 1px solid #53AF00;
-  border-top: 1px solid #53AF00;
+  border-bottom: 1px solid #c44e00;
+  border-top: 1px solid #c44e00;
 }
 
 nav.header_full {
-  background: -webkit-gradient(
-    linear,
-     left bottom,
-     left top,
-     color-stop(0, rgb(108,201,58)),
-     color-stop(0.5, rgb(112,204,66)),
-     color-stop(0.77, rgb(118,217,68))
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.38, rgb(232,93,0)),
+      color-stop(0.69, rgb(235,94,0)),
+      color-stop(0.85, rgb(237,95,0))
   );
   background-image: -moz-linear-gradient(
       center bottom,
-      rgb(108,201,58) 0%,
-      rgb(112,204,66) 50%,
-      rgb(118,217,68) 77%
+      rgb(232,93,0) 38%,
+      rgb(235,94,0) 69%,
+      rgb(237,95,0) 85%
   );
   margin-top: 8px;
   padding: 2px 0px 2px 16px;
   color: #fff;
   font-weight: bold;
   font-size: 12px;
-  border-bottom: 1px solid #53AF00;
-  border-top: 1px solid #53AF00;
+  border-bottom: 1px solid #c44e00;
+  border-top: 1px solid #c44e00;
 }
 nav a {
   text-decoration: none;
