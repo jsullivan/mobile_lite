@@ -3,7 +3,10 @@ class WelcomeController < ApplicationController
 def index
 end
 
-def show
+def locations
+end
+
+def facility
 end
 
 end

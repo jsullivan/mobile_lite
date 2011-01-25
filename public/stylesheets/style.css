@@ -65,6 +65,41 @@ header {
   background: -moz-linear-gradient(top, #1E5799 0%, #2989D8 50%, #207cca 51%, #7db9e8 100%); /* firefox */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1E5799), color-stop(50%,#2989D8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* webkit */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1E5799', endColorstr='#7db9e8',GradientType=0 ); /* ie */
+  border-bottom: 1px solid #3E84D6;
+}
+header a {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow:rgba(0, 0, 0, 0.5) 0px 1px 0px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
+    line-height: 28px;
+    padding: 0 8px;
+    text-decoration: none;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(27,93,164)),
+        color-stop(0.5, rgb(41,92,194)),
+        color-stop(0.77, rgb(39,119,211))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(27,93,164) 0%,
+        rgb(41,92,194) 50%,
+        rgb(39,119,211) 77%
+    );
+border-top: 1px solid #184C9D;
+    border-bottom: 1px solid #A0C0E1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-image: url(images/button.png) 0 8 0 8;
+
 }
 header h1 {
   color:#fff;
@@ -134,6 +169,29 @@ nav li, .summary {
   -moz-box-shadow: 0px 1px 3px #626262;
   box-shadow: 0px 1px 3px #626262;
 }
+nav.locations li {
+  border-bottom: 2px solid #fff;
+  margin-top: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+nav.locations ul > li:last-child {
+  border-bottom: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 8px;
+}
+nav.locations ul > li:first-child {
+  margin-top: 8px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+.summary {
+  background: #fff;
+}
 .sexy_line {
     margin: 25px 0;
     height: 1px;
@@ -168,17 +226,20 @@ footer {
   padding: 5%;
   clear: both;
   color: #fff;
+  border-top: 1px solid #666;
   background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0, rgb(0,0,0)),
-    color-stop(0.78, rgb(68,68,68))
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(45,46,45)),
+      color-stop(0.54, rgb(102,101,102)),
+      color-stop(0.77, rgb(128,128,128))
   );
   background-image: -moz-linear-gradient(
-    center bottom,
-    rgb(0,0,0) 0%,
-    rgb(68,68,68) 78%
+      center bottom,
+      rgb(45,46,45) 0%,
+      rgb(102,101,102) 54%,
+      rgb(128,128,128) 77%
   );
 }
 footer a {

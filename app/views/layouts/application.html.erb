@@ -8,7 +8,6 @@
   <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
   <!-- Add "maximum-scale=1" to fix the Mobile Safari auto-zoom bug on orientation changes,
     but keep in mind that it will disable user-zooming completely. Bad for accessibility. -->
@@ -19,6 +18,9 @@
 <body>
   <header>
     <h1>StorQuest</h1>
+    <% unless controller.action_name == 'index' %>
+    <%= link_to 'Home', '/'%>
+    <% end %>
   </header>
   <section class="container">
     <%= yield %>
