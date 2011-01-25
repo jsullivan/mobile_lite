@@ -101,6 +101,7 @@ section.container {
     rgb(240,237,240) 84%
   );
 }
+
 nav a {
   text-decoration: none;
   display: block;
@@ -108,8 +109,20 @@ nav a {
   background-position: right;
 }
 nav li, .summary {
-  background: #fff;
-  margin: 0 auto;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.35, rgb(242,242,242)),
+      color-stop(0.54, rgb(255,252,255)),
+      color-stop(0.87, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(242,242,242) 35%,
+      rgb(255,252,255) 54%,
+      rgb(255,255,255) 87%
+  ); margin: 0 auto;
   margin-top: 8px;
   width: 85%;
   padding: 5%;
