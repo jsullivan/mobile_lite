@@ -137,31 +137,6 @@ section.container {
     rgb(240,237,240) 84%
   );
 }
-nav.header {
-  background: url('/images/green_ribbon.png') no-repeat 0 0, -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      color-stop(0.38, rgb(232,93,0)),
-      color-stop(0.69, rgb(235,94,0)),
-      color-stop(0.85, rgb(237,95,0))
-  );
-  background-image: -moz-linear-gradient(
-      center bottom,
-      rgb(232,93,0) 38%,
-      rgb(235,94,0) 69%,
-      rgb(237,95,0) 85%
-  );
-  background-position: right;
-  margin-top: 8px;
-  margin-right: 38px;
-  padding: 2px 0px 2px 16px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 12px;
-  border-bottom: 1px solid #c44e00;
-  border-top: 1px solid #c44e00;
-}
 
 nav.header_full {
   background-image: -webkit-gradient(
@@ -178,13 +153,11 @@ nav.header_full {
       rgb(235,94,0) 69%,
       rgb(237,95,0) 85%
   );
-  margin-top: 8px;
   padding: 2px 0px 2px 16px;
   color: #fff;
   font-weight: bold;
   font-size: 12px;
   border-bottom: 1px solid #c44e00;
-  border-top: 1px solid #c44e00;
 }
 nav a {
   text-decoration: none;
