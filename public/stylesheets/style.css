@@ -264,6 +264,7 @@ footer {
       rgb(102,101,102) 54%,
       rgb(128,128,128) 77%
   );
+  position: relative;
 }
 footer a {
   color: #fff;
@@ -277,11 +278,14 @@ footer li {
 footer li:last-of-type {
   border-right:none;
 }
-#example {
-  height: 600px;
-  background: rgb(60,97,158);
+section.logo {
+  right: 8px;
+  height:45px;
+  width: 34px;
+  top: -3px;
+  position: absolute;
+  background: url('/images/g5_ribbon.png');
 }
-
 /*  5-column layout
   60 px columns, 24 px gutters, 42 px margins, 480 px total
   ---------------------------------------------------------
