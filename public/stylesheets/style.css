@@ -246,7 +246,7 @@ figure {
 
 /* FOOTER */
 footer {
-  padding: 5%;
+  padding: 5%0;
   clear: both;
   color: #fff;
   border-top: 1px solid #666;
@@ -270,7 +270,7 @@ footer a {
   color: #fff;
 }
 footer li {
-  padding:0 8px 0 5px;
+  padding:0 8px 0 8px;
   font-size:12px;
   display:inline;
   border-right:1px solid #ccc;

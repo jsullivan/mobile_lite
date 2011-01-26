@@ -8,18 +8,21 @@
   <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
   <!-- Add "maximum-scale=1" to fix the Mobile Safari auto-zoom bug on orientation changes,
     but keep in mind that it will disable user-zooming completely. Bad for accessibility. -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag 'style' %>
   <%= csrf_meta_tag %>
 </head>
-<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+<% if controller.action_name == 'index' %>
+  <body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+<% else %>
+  <body>
+<% end %>
   <header>
     <h1>StorQuest</h1>
     <% unless controller.action_name == 'index' %>
-    <%= link_to 'Home', '/'%>
+      <%= link_to 'Home', '/'%>
     <% end %>
   </header>
   <section class="container">
@@ -31,6 +34,7 @@
       <!--<li>Powered by <a href="http://g5platform.com">G5</a></li>-->
     </ul>
     <section class="logo">
+    </section>
     </footer>
   </footer>
 </body>
